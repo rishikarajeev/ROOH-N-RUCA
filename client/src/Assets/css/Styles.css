@@ -1,0 +1,21 @@
+.width20{
+    width:20%;
+}
+.text-stats{
+    height:100px;
+  }
+  .bggray{
+    background-color: #F2F2F2
+  }
+  .BgImage {
+    text-align: right;
+    background-size: cover;
+    min-height: 500px;
+    background-image:url(../../Assets/Images/banner.jpg)
+    ;
+
+
+}
+#currency:before {
+  content: '₹';
+}
