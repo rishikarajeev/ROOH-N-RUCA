@@ -92,19 +92,6 @@ function Header() {
                         </>
                       ) : (
                         <>
-                          {/* <Nav.Item>
-                            <Nav.Link
-                              className="fs-5 bold text-dark"
-                              eventKey="link-2"
-                              href="/viewproducts"
-                            >
-                              Products
-                            </Nav.Link>
-                          </Nav.Item> */}
-                        </>
-                      )}
-                      {usertoken ? (
-                        <>
                           <Nav.Item>
                             <Nav.Link
                               className="fs-5 bold text-dark"
@@ -114,6 +101,10 @@ function Header() {
                               Products
                             </Nav.Link>
                           </Nav.Item>
+                        </>
+                      )}
+                      {usertoken ? (
+                        <>
                           <Nav.Item>
                             <Nav.Link
                               className="fs-5 bold text-dark"
@@ -141,7 +132,15 @@ function Header() {
                               Favourites
                             </Nav.Link>
                           </Nav.Item>
-                          
+                          <Nav.Item>
+                            <Nav.Link
+                              className="fs-5 bold text-dark"
+                              eventKey="link-2"
+                              href="/viewproducts"
+                            >
+                              Products
+                            </Nav.Link>
+                          </Nav.Item>
                           <Nav.Item>
                             <Nav.Link
                               className="fs-5 bold text-dark"

@@ -92,7 +92,7 @@ function Header() {
                         </>
                       ) : (
                         <>
-                          {/* <Nav.Item>
+                          <Nav.Item>
                             <Nav.Link
                               className="fs-5 bold text-dark"
                               eventKey="link-2"
@@ -100,7 +100,7 @@ function Header() {
                             >
                               Products
                             </Nav.Link>
-                          </Nav.Item> */}
+                          </Nav.Item>
                         </>
                       )}
                       {usertoken ? (
