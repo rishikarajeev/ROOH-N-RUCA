@@ -1,0 +1,18 @@
+install react-redux
+npm install @reduxjs/toolkit
+npm i -g react-devtools
+redux devtools chrome extension in chrome
+
+import provider and set in index.js(app) and specify store name
+create folder redux with folders reducer and store
+create store configureStore
+create reducer
+- using createSlice from redux toolkit
+-in create slice {specify store name,initial value of state and define actions in reducer}
+-export the reducer with reducername.reducer
+-export the actions with reducername.actions
+specify the name of the reducer in store.
+in jsx files call the useselector to get the updated state value
+call the actions with usedipatch with actionname()
+
+
