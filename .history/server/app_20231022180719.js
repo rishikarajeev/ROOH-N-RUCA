@@ -81,8 +81,8 @@ app.use("/api/roohnruca/login", LoginRoute);
 app.use("/api/roohnruca/register", RegisterRoute);
 app.use("/api/roohnruca/profile", ProfileRoute);
 app.use("/api/roohnruca/admin", AdminRoute);
-app.use("/api/roohnruca/cart", CartRoute);
-app.use("/api/roohnruca/favourite", favouriteRoute);
+app.use("/api/ashvogue/cart", CartRoute);
+app.use("/api/ashvogue/favourite", favouriteRoute);
 
 app.get("/home",(req,res)=>{
 console.log(req.cookies)
