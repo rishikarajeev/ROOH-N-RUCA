@@ -64,13 +64,13 @@ function AutoLayoutExample() {
   return (
    
     <Container fluid className=" mb-3">
-
       <Row className="justify-content-md-center">
 
         {(role===1)?(
         data.map((key) => (
           <Card style={{ width: "18rem" }} key={key._id}>
-            <Card.Img variant="top" src={`/images/${key.image}`} />
+            {/* <Card.Img variant="top" src={`/images/${key.image}`} /> */}
+            <Card.Img variant="top" src={key.image} />
             <Card.Body>
               <Card.Title>{key.name}</Card.Title>
               <Card.Text>

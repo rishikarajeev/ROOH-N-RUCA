@@ -54,7 +54,7 @@ ClothesRoute.post("/addproduct",upload.single("image"), (req, res) => {
     price: req.body.price,
     description: req.body.description,
    // image:req.file.filename
-    image:req.file?req.file.path:null
+    image:req.file.
   });
 
   data
