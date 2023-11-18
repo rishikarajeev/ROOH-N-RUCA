@@ -1,0 +1,38 @@
+.width20{
+    width:20%;
+}
+.text-stats{
+    height:100px;
+  }
+  .bggray{
+    background-color: #F2F2F2
+  }
+  .BgImage {
+    text-align: right;
+    background-size: cover;
+    min-height: 500px;
+    background-image:url(../../Assets/Images/banner.jpg)
+    ;
+
+
+}
+#currency:before {
+  content: '₹';
+}
+
+.radioButtonStyles {
+  appearance: 'none',
+  WebkitAppearance: 'none',
+  MozAppearance: 'none',
+  width: '20px',
+  height: '20px',
+  borderRadius: '50%',
+  border: '2px solid #3498db', // Set the border color
+  outline: 'none',
+};
+
+.checkedStyles {
+  backgroundColor: '#3498db', 
+  borderColor: '#3498db', // Set the border color when checked
+  color: '#ffffff', // Set the text color when checked
+};
