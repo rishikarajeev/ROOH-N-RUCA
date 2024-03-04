@@ -1,0 +1,5 @@
+# netlify.toml
+
+[build]
+  publish = ""  # Adjust based on your build output directory
+  command = "npm run build"
